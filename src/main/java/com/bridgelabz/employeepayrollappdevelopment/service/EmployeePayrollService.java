@@ -1,14 +1,13 @@
 package com.bridgelabz.employeepayrollappdevelopment.service;
 
+import java.util.ArrayList;
+import java.util.List;
 import com.bridgelabz.employeepayrollappdevelopment.dto.EmployeePayrollDTO;
 import com.bridgelabz.employeepayrollappdevelopment.model.EmployeePayrollData;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Service
-public class EmployeePayrollService implements com.bridgelabz.employeepayrollappdevelopment.service.IEmployeePayrollService {
+public class EmployeePayrollService implements IEmployeePayrollService{
 
     private List<EmployeePayrollData> employeePayrollList = new ArrayList<>();
 
